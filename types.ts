@@ -44,10 +44,12 @@
 //? It is called the fat arrow (because -> is a thin arrow and => is a fat arrow) and also called
 //? a lambda function (because of other languages)
 
-var muktinathtech = function(subscribe){
-    console.log(subscribe);
-}
+// var muktinathtech = function(subscribe){
+//     console.log(subscribe);
+// }
 
-let muktinathtech1 = () => {
-    console.log("hi");
-}
+// let muktinathtech1 = () => {
+//     console.log("hi");
+// }
+
+
