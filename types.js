@@ -17,6 +17,14 @@
 // arrStr = ["hello1", "hello2"];
 // let arrNum : number[];
 // arrNum = [1,2,3,4,5];
-var anytype;
-anytype = "check this out";
-console.log(anytype);
+// let anytype;
+// anytype = "check this out";
+// console.log(anytype);
+// !😎 2. Type Assertion 
+//? Type assertions have two forms.
+//? One is the "angle-bracket" syntax:
+//? The other is the as-syntax:
+var muktinath;
+muktinath = "subscribe";
+muktinath.length;
+muktinath.length;
