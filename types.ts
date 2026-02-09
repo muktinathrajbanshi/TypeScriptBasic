@@ -34,9 +34,20 @@
 //? One is the "angle-bracket" syntax:
 //? The other is the as-syntax:
 
-let muktinath;
-muktinath = "subscribe";
-(<string>muktinath).length;
+// let muktinath;
+// muktinath = "subscribe";
+// (<string>muktinath).length;
 
-(muktinath as string).length;
+// (muktinath as string).length;
 
+//? => Arrow Function
+//? It is called the fat arrow (because -> is a thin arrow and => is a fat arrow) and also called
+//? a lambda function (because of other languages)
+
+var muktinathtech = function(subscribe){
+    console.log(subscribe);
+}
+
+let muktinathtech1 = () => {
+    console.log("hi");
+}

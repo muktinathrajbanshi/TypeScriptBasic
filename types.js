@@ -24,7 +24,16 @@
 //? Type assertions have two forms.
 //? One is the "angle-bracket" syntax:
 //? The other is the as-syntax:
-var muktinath;
-muktinath = "subscribe";
-muktinath.length;
-muktinath.length;
+// let muktinath;
+// muktinath = "subscribe";
+// (<string>muktinath).length;
+// (muktinath as string).length;
+//? => Arrow Function
+//? It is called the fat arrow (because -> is a thin arrow and => is a fat arrow) and also called
+//? a lambda function (because of other languages)
+var muktinathtech = function (subscribe) {
+    console.log(subscribe);
+};
+var muktinathtech1 = function () {
+    console.log("hi");
+};
